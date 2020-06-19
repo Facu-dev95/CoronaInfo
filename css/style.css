@@ -1,0 +1,27 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+background: #F2F2F2;
+}
+h1 {
+    text-align: center;
+}
+.mejoraForm{
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+#formulario{
+    background: white;
+}
+#resultados{
+    display: none;
+}
+.footer{
+    position: fixed;
+    bottom:0;
+    clear:both;
+    width:100%;
+    text-align: center;
+}

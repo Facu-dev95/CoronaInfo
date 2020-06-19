@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <title>CoronaInfo</title>
+    </head>
+    <body>
+        
+        <div class="container text-center rounded">
+            <header>
+                <h1>CoronaInfo</h1>
+            </header>
+            <div class="subtittle">
+                <p>Obtené la última información necesaria en forma gráfica sobre el COVID-19 en tu país</p>
+            </div>
+            <br>
+
+            <div id="formulario" class="border border-secundary rounded mejoraForm">
+                <label> Nombre del país (INGLES)</label>
+                <input type="text" id="pais" placeholder="País">
+                <input type="button" id="btnInfo" class="btn btn-info" value="Obtener gráfico">
+                <input type="button" id="btnBorrar" class="btn btn-danger" value="Borrar">
+            </div>
+            <br>
+
+            <div class="clearfix">
+                <h2 id="resultados">Resultados</h2>
+                <div id="info" class="row">
+                    <div class=" col-sm">
+                        <canvas id="myChart" width="400" height="400"></canvas>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <i>*FUENTE: Universidad Johns Hopkins</i>
+            <br><br>
+    
+        </div>
+        <footer class="footer">&COPY; Facundo benitez || CoronaInfo</footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "covid-19",
+  "version": "1.0.0",
+  "description": "Página web con informacion sobre COVID-19 en el mundo.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Facundo Benitez",
+  "license": "ISC"
+}
